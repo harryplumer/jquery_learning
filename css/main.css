@@ -1,0 +1,125 @@
+/* BEGIN RESET AREA */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* END RESET AREA */
+
+body{
+  background: #D490FF;
+  color: #12000A;
+  font-family: 'Permanent Marker', cursive;
+}
+
+
+h1{
+text-align: center;
+font-size: 60px;
+margin-bottom: 35px;
+}
+
+h2{
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+h3{
+  font-size: 22px;
+  margin-top: 15px;
+}
+
+h4{
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+header{
+  text-align: center;
+}
+
+header img{
+  margin: 0 auto;
+  height: 300px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.container{
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.half-block{
+  width: 48%;
+  display: inline-block;
+  text-align: center;
+  height: 400px;
+  overflow: hidden;
+}
+
+#cart_block{
+  border-left: 2px solid black;
+}
+
+.btn{
+  margin-top: 10px;
+  width: 200px;
+  background: #69006A;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 16px;
+  border: 3px solid white;
+  box-shadow: none;
+}
+
+li{
+  color: white;
+}
+
+#clear_cart{
+  display: none;
+}

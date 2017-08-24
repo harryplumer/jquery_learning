@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>JQuery App</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+    <h1>Welcome to Hugh Freeze's<br> Outcall Massage Service</h1>
+    <img src="images/freeze.png" id="freeze_head"><img src="images/girl.png" id="girl">
+    </header>
+    <section class="container">
+      <div class='half-block'>
+        <h2>Your Plan</h2>
+        <h4>Choose a plan</h4>
+          <select name="package_options" id="package_options">
+            <option value="hourly">Kelani Sitake Hourly Pkg ($250)</option>
+            <option value="monthly">Bobby Petrino Monthly Pkg ($1500)</option>
+            <option value="quarterly">Mike Price Quarterly Pkg ($4000)</option>
+          </select>
+          <br>
+          <input type="button" class="btn" id="add_to_cart" value="Add To Cart"><br>
+          <input type="button" class="btn" id="display_cart" value="Hide Cart">
+        </div>
+        <div class='half-block' id='cart_block'>
+          <h2>Your Cart</h2>
+          <ul id="cart">  
+          </ul>
+          <h3>Your Total: $<span id="total">0</span></h3>
+          <input type="button" class="btn" id="clear_cart" value="Clear Cart">
+          <div id='complete'>
+            <input type="button" class="btn" id="checkout" value="Checkout">
+          </div>
+        </div>
+    
+    </section>
+      
+
+
+
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+
+</html>
